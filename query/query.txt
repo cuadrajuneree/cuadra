@@ -1,0 +1,9 @@
+*Insert
+*Update
+*Delete
+*Select
+
+( "INSERT INTO accounts (username, password) VALUES ('$username', '$password')");
+( "UPDATE accounts SET username='$username', password='$password', WHERE ID ='$id'");
+( "DELETE FROM accounts WHERE ID = '$id'");
+( "SELECT * FROM accounts WHERE username = '$username'");
